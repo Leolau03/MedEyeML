@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/beige"
-    tools:context=".Login">
+    tools:context=".Signup">
 
     <LinearLayout
         android:id="@+id/linearLayout2"
@@ -18,7 +18,7 @@
             android:layout_gravity="center"
             android:layout_marginTop="100dp"
             android:fontFamily="@font/rhtbold"
-            android:text="@string/welcome"
+            android:text="@string/signup"
             android:textColor="@color/white"
             android:textSize="45sp"/>
 
@@ -26,7 +26,7 @@
             android:layout_width="310sp"
             android:layout_height="50sp"
             android:layout_gravity="center"
-            android:layout_marginTop="200dp"
+            android:layout_marginTop="140dp"
             android:background="@drawable/textbox"
             android:drawableLeft="@drawable/email_icon"
             android:drawablePadding="15sp"
@@ -48,38 +48,31 @@
             android:fontFamily="@font/rhtlight"
             android:textColor="@color/black"/>
 
+        <EditText
+            android:layout_width="310sp"
+            android:layout_height="50sp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/textbox"
+            android:drawableLeft="@drawable/password_icon"
+            android:drawablePadding="15sp"
+            android:paddingLeft="25sp"
+            android:text="@string/passworddoublecheck"
+            android:fontFamily="@font/rhtlight"
+            android:textColor="@color/black"/>
+
         <Button
-            android:id="@+id/button_login"
+            android:id="@+id/button_getStarted"
             android:layout_width="250dp"
             android:layout_height="50dp"
             android:layout_gravity="center"
             android:background="@drawable/roundedbutton"
             android:layout_margin="30dp"
             android:textAllCaps="false"
-            android:text="@string/login"
+            android:text="@string/start"
             android:fontFamily="@font/rhtmedium"
             android:textColor="@color/white"
             android:textSize="25sp"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginTop="5dp"
-            android:fontFamily="@font/rhtregular"
-            android:text="@string/noAccount"
-            android:textColor="@color/white"
-            android:textSize="15sp"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginTop="5dp"
-            android:fontFamily="@font/rhtbold"
-            android:text="@string/signupRedirect"
-            android:textColor="@color/white"
-            android:textSize="15sp"/>
 
     </LinearLayout>
 
