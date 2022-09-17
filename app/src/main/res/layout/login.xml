@@ -5,7 +5,7 @@
     android:background="#D2B7B1"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Welcome">
+    tools:context=".Login">
 
     <LinearLayout
         android:layout_width="match_parent"
