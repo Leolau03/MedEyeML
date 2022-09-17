@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/beige"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Welcome">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:contentDescription="@string/logo"
+            android:layout_width="225dp"
+            android:layout_height="250dp"
+            android:layout_marginTop="60dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/medeyelogo"/>
+
+        <TextView
+            android:id="@+id/medeye"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="medEye"
+            android:fontFamily="@font/rhtbold"
+            android:textColor="@color/white"
+            android:textSize="50sp" />
+
+        <TextView
+            android:layout_width="250sp"
+            android:layout_height="150sp"
+            android:fontFamily="@font/rhtbold"
+            android:text="@string/slogan"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:gravity="center"
+            android:layout_gravity="center"/>
+
+        <Button
+            android:id="@+id/button_login"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:background="@drawable/roundedbutton"
+            android:layout_margin="10dp"
+            android:textAllCaps="false"
+            android:text="@string/login"
+            android:fontFamily="@font/rhtmedium"
+            android:textColor="@color/white"
+            android:textSize="25sp"/>
+
+        <Button
+            android:id="@+id/button_sign_up"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:background="@drawable/roundedbutton"
+            android:layout_margin="10dp"
+            android:textAllCaps="false"
+            android:text="@string/signup"
+            android:fontFamily="@font/rhtmedium"
+            android:textColor="@color/white"
+            android:textSize="25sp"/>
+
+    </LinearLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
