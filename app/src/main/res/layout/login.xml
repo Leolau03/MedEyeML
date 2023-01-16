@@ -71,13 +71,15 @@
             android:textColor="@color/white"
             android:textSize="15sp"/>
 
-        <TextView
+        <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="5dp"
             android:fontFamily="@font/rhtbold"
             android:text="@string/signupRedirect"
+            android:background="@android:color/transparent"
+            android:textAllCaps="false"
             android:textColor="@color/white"
             android:textSize="15sp"/>
 
