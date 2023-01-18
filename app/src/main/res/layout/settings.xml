@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/beige"
+    tools:context=".Settings">
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="100dp"
+            android:fontFamily="@font/rhtbold"
+            android:text="@string/welcome"
+            android:textColor="@color/white"
+            android:textSize="45sp"/>
+
+        <EditText
+            android:layout_width="310sp"
+            android:layout_height="50sp"
+            android:layout_gravity="center"
+            android:layout_marginTop="200dp"
+            android:background="@drawable/textbox"
+            android:drawableLeft="@drawable/email_icon"
+            android:drawablePadding="15sp"
+            android:paddingLeft="25sp"
+            android:text="@string/email"
+            android:fontFamily="@font/rhtlight"
+            android:textColor="@color/black"/>
+
+        <EditText
+            android:layout_width="310sp"
+            android:layout_height="50sp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/textbox"
+            android:drawableLeft="@drawable/password_icon"
+            android:drawablePadding="15sp"
+            android:paddingLeft="25sp"
+            android:text="@string/password"
+            android:fontFamily="@font/rhtlight"
+            android:textColor="@color/black"/>
+
+        <Button
+            android:id="@+id/button_login"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:background="@drawable/roundedbutton"
+            android:layout_margin="30dp"
+            android:textAllCaps="false"
+            android:text="@string/login"
+            android:fontFamily="@font/rhtmedium"
+            android:textColor="@color/white"
+            android:textSize="25sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/rhtregular"
+            android:text="@string/noAccount"
+            android:textColor="@color/white"
+            android:textSize="15sp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/rhtbold"
+            android:text="@string/signupRedirect"
+            android:background="@android:color/transparent"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="15sp"/>
+
+    </LinearLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
